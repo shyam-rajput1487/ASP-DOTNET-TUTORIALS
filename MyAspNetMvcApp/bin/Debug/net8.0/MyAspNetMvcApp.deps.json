@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MyAspNetMvcApp/1.0.0": {
+        "runtime": {
+          "MyAspNetMvcApp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyAspNetMvcApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

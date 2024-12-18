@@ -1,0 +1,14 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<table border="1" align="center">
+   <caption>Employee Details</caption>
+   <tr><td>Employee Id:</td><td>@ViewBag.Id</td></tr>
+   <tr><td>Employee Name:</td><td>@ViewBag.Name</td></tr>
+   <tr><td>Employee Job:</td><td>@ViewBag.Job</td></tr>
+   <tr><td>Employee Salary:</td><td>@ViewBag.Salary</td></tr>
+   <tr>
+      <td colspan="2" align="center"><a href="/Emp/AddEmp">Add a new Employee</a></td>
+   </tr>
+</table>
